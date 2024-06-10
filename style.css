@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body {
+    background-color: #dadada;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131921;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.country {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+
+.country h1 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: gray;
+    max-width: 1000px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.nav-search-cat {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    height: 7vh;
+    background: #e5e5e5;
+    border-radius: 4px 0 0 4px;
+}
+
+.nav-search {
+    border: none;
+    outline: none;
+    padding-left:20px;
+    width: 122px;
+    height:54px;
+}
+
+
+.nav-search-icon {
+    max-width:54px;
+    padding: 8px;
+    position: relative;
+    left: 588px;
+    background: #ffd64f;
+    border-radius: 0 4px 4px 0;
+}
+
+.nav-lang {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 600;
+    
+    margin-left: 50px;
+}
+
+.nav-text {
+    margin-left: 15px;
+}
+
+.nav-text p {
+    font-size: 10px;
+}
+
+.nav-text h1 {
+    font-size: 14px;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.nav-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background: #232f3e;
+    color: #fff;
+    font-size: 15px;
+}
+
+.nav-bottom div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+
+/* Header Seciton*/
+
+.header-slider ul {
+    display: flex;
+    overflow: hidden;
+}
+
+.header-slider ul img {
+    max-height: 800px;
+}
+
+.header-img {
+    max-width: 150%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.header-slider a {
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.control_next {
+    right: 0;
+}
+
+
+/* Cards Sections */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 24%;
+    min-height: 200%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 15px 20px;
+}
+
+.card1 a {
+    font-size: 13px;
+    color: #009999;
+    font-weight: 500;
+}
+
+.CARDS {
+    margin-top: -20vw;
+}
+
+
+/* Product one Seciton */
+
+.product {
+    background: #fff;
+    margin: 0 30px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.product .things {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+.product .things img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+.product .things::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/*Product 2 Section*/
+
+.product2 {
+    background: #fff;
+    margin: 0 30px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.product2 .things {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product2 .things::-webkit-scrollbar{
+    display: none;
+}
+
+.caad{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
+.caad img{
+    width: 110px;
+    margin-right: 0 50px;
+}
+
+.offer p{
+    background: #b30b3b;
+    color: #fff;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 8px 0;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+
+.offer span{
+     color: orange;
+     font-weight: 500;
+     font-size: 12px;
+}
+
+.caad p{
+    color: gray;
+    font-weight: 500;
+}
+
+.caad h4{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Footer Section */
+
+
+footer{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: #fff;
+     background: #131921;
+     padding: 20px 30px;
+}
